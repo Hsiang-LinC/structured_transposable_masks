@@ -1,0 +1,49 @@
+# Basic Python & project artifact ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native / compiled
+*.so
+
+# Build & packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.cache/
+**/cache/
+**/*_cache/
+
+# Logs & run artifacts
+logs/
+log/
+wandb/
+output/
+outputs/
+results/
+temp/
+
+# Model artifacts
+*.pth
+*.onnx
+
+# Misc
+.DS_Store
+
